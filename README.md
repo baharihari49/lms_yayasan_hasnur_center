@@ -20,5 +20,5 @@
 [link website](https://www.octansidn.com.com "octans finance indonesia")
 
 
-![Alt Text](images/mobile%2018.png.png)
+![Alt Text](images/mobile%2018.png)
 ![Alt Text](images/mobile%20(17).png)
