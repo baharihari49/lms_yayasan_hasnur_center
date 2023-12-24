@@ -4,7 +4,7 @@
 @section('container')
     @include('dashboard.layouts.breadcump')
 
-    <h1 class="text-3xl font-semibold my-4">{{$data->judul}}</h1>
+    <h1 class="text-2xl lg:text-3xl font-semibold my-4">{{$data->judul}}</h1>
     <hr class="mb-3">
 
     <p class="text-gray-600 mb-5">{{$data->deskripsi}}</p>

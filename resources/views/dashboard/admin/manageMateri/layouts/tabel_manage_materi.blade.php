@@ -149,9 +149,9 @@
                             </div>
                         </div>
                         <tr class="border-b dark:border-gray-700">
-                            <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">{{Str::limit($item->judul, 50)}}</th>
-                            <td class="px-4 py-3">{{Str::limit($item->deskripsi, 50)}}</td>
-                            <td class="px-4 py-3">{{Str::limit($item->kursus->judul, 50)}}</td>
+                            <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">{{Str::limit($item->judul, 30)}}</th>
+                            <td class="px-4 py-3">{{Str::limit($item->deskripsi, 30)}}</td>
+                            <td class="px-4 py-3">{{Str::limit($item->kursus->judul, 30)}}</td>
                             <td class="px-4 py-3">{{$item->link_materi}}</td>
                             <td class="px-4 py-3 flex items-center justify-end">
                                 <button data-modal-target="defaultModalUpdate{{$item->id}}" data-modal-toggle="defaultModalUpdate{{$item->id}}">

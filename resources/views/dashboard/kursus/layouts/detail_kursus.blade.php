@@ -56,29 +56,18 @@
 
     <div>
         <div class="flex items-center justify-between">
-            <h1 class="text-3xl font-semibold">{{$data->judul}}</h1>
+            <h1 class="text-2xl xl:text-3xl font-semibold">{{$data->judul}}</h1>
             <form action="kursus" method="POST"></form>
         </div>
         <p class="text-gray-600 my-3">{{$data->deskripsi}}</p>
 
-        <div class="flex items-center gap-3 hidden">
-            <form action="kursus" method="POST">
-                @csrf
-                @method('DELETE')
-                <input type="hidden" name="id" value="{{$data->id}}">
-                <button onclick="confirm('anda yakin ingin menghapus item ini??')" class="py-2 px-3 bg-red-600 text-sm hover:bg-red-700 rounded-md text-white">Hapus Kursus</button>
-            </form>
-            <button data-modal-toggle="defaultModalUpdate" data-modal-target="defaultModalUpdate" class="py-2 px-3 bg-blue-600 text-sm hover:bg-blue-700 rounded-md text-white">Edit Kursus</button>
-        </div>
-
         <hr class="my-8">
 
-        <h3 class="text-2xl font-semibold">Materi</h3>
-        <button data-modal-target="defaultModalCreateMateri" data-modal-toggle="defaultModalCreateMateri" class="hidden py-2 px-3 bg-blue-600 hover:bg-blue-700 rounded-md text-white my-3 text-sm">Tambah Materi</button>
+        <h3 class="text-xl lg:text-2xl mb-3 font-semibold">Materi</h3>
         <div class="grid 2xl:grid-cols-5 gap-3">
             @foreach ($materi as $item)
                 <a href="/detail-materi?id={{$item->id}}" class="p-4 rounded-md shadow-md bg-white hover:bg-gray-50">
-                    <h4 class="text-2xl font-semibold mb-3">{{$item->judul}}</h4>
+                    <h4 class="text-xl lg:text-2xl font-semibold mb-3">{{$item->judul}}</h4>
                     <p class="text-gray-600">{{$item->deskripsi}}</p>
                 </a>
             @endforeach
