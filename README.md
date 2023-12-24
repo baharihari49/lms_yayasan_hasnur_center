@@ -14,4 +14,11 @@
 ![Alt Text](images/mobile%20(14).png)
 ![Alt Text](images/mobile%20(15).png)
 ![Alt Text](images/mobile%20(16).png)
+
+**Selain itu saya juga menyertakan projekan saya di salah satu start up di kota medan**
+
+[link website](https://www.octansidn.com.com "octans finance indonesia")
+
+
+![Alt Text](images/mobile%2018.png.png)
 ![Alt Text](images/mobile%20(17).png)
